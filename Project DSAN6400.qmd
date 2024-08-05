@@ -111,9 +111,24 @@ Important results from this bar graph are:
 
 This figure compares the anticipated vehicle numbers and actual counts. The x-axis represents the number of vehicles actually counted, while the y-axis shows expected numbers. Each point on the plot corresponds to a pair of observed and predicted values.
 Major takeaways from this graph are as follows:
-•	Prediction Accuracy: Estimation of how well the model predicts what is true in terms of vehicle quantities.
-•	Correlation: The accuracy of a model increases when its predictions lie near those that would be given by real world situations.
-•	Discrepancies: Points far away from the red line which represents perfect predictions (red line) show areas where there might be need for improvement in the model itself.
+
+•  Prediction Accuracy: Estimation of how well the model predicts what is true in terms of vehicle quantities.
+•  Correlation: The accuracy of a model increases when its predictions lie near those that would be given by real world situations.
+•  Discrepancies: Points far away from the red line which represents perfect predictions (red line) show areas where there might be need for improvement in the model itself.
+
+
+![Fig: Traffic Network Visualization (Node Size and Color by PageRank)](Outputs/Figure_7.png)
+
+This figure shows the traffic network visualization based on PageRank. In the graph, the size and color of the nodes are encoded based on their PageRank values. Larger and brighter colored nodes indicate higher PageRank values. These nodes play a crucial role in the network by acting as important hubs for traffic flow.
+Analysis:
+•	Important Nodes with High PageRank: A high PageRank of Node 5 implies that this is a very important hub within the traffic network. The node is highly connected with other nodes and has a link with an important node. This will help enable efficient and free flow of traffic.
+
+•	Efficient Hubs: These are nodes with higher values of PageRank; for instance, nodes 4 and 3 help bring about efficiency in the movement of traffic within the network. These form the strategically vital nodes that help in keeping the flow of traffic steady.
+
+•	Optimization of Traffic: The overall efficiency of the traffic network can be greatly enhanced by targeting nodes with high PageRank for traffic signal optimization and rerouting strategies. Upgrading traffic signals at nodes, for example, 5 may have the advantage of increasing traffic flow for the entire network.
+
+•	Balance and Connectivity: The balance and connectivity for the network are indicated by the distribution of PageRank. Nodes 1 and 2, with less significant PageRank values, are still important to hold the network together.
+
 
 
 
